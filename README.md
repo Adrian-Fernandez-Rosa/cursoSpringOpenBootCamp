@@ -16,3 +16,9 @@
 </p>          
 
 
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-springdatajpa" 
+ target="_blank"> introducción JPA usando H2 </a></h3>
+<p align="left">
+- En esta primera parte de la sesión aprenderás lo que es Spring Data, verás una introducción a JPA, dependencias y introducción a las queries.       
+</p>          
