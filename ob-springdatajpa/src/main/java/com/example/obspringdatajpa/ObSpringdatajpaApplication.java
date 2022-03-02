@@ -22,7 +22,7 @@ public class ObSpringdatajpaApplication {
 		// recuperar un coche por id
 		System.out.println("El numero de coche es: "+ repository.count());
 
-		//recuperar coche por id
+		//recuperar todos los coches
 		System.out.println(repository.findAll());
 	}
 
