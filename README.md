@@ -60,12 +60,9 @@ Dentro de la clase crear un método que retorne un saludo.
 Probar que retorna el saludo desde el navegador y desde Postman.
 
 Dentro de la misma app crear las clases necesarias para trabajar con "ordenadores":
-
-    * Laptop (entidad)
-
-    * LaptopRepository (repositorio)
-
-    * LaptopController (controlador)
+ * Laptop (entidad)
+ * LaptopRepository (repositorio)
+ * LaptopController (controlador)
 
 Desde LaptopController crear un método que devuelva una lista de objetos Laptop.
 Probar que funciona desde Postman.
