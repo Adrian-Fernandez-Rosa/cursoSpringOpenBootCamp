@@ -44,7 +44,7 @@ Desde el método main, probar a obtener el bean UserService y ejecutar el métod
     Spring Data JPA
     H2
 </p>
-<br>
+<hr />
 <h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
  target="_blank"> API REST  </a></h3>
 <p align="left">
@@ -75,5 +75,5 @@ Crear un método en LaptopController que reciba un objeto Laptop enviado en form
 
 Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
 </p>
-
+<hr />
 
