@@ -49,5 +49,31 @@ Desde el método main, probar a obtener el bean UserService y ejecutar el métod
  target="_blank"> API REST  </a></h3>
 <p align="left">
 - aplicaciones REST con Spring Boot,  un repaso a los servicios REST.
- USO DE @RequestBody, @RequestHeader, @RestController
+ USO DE @RequestBody, @RequestHeader, @RestController, ResponseEntity
 </p>          
+
+<h6 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ejercitacionSesion6" 
+ target="_blank"> Ejercicitación sesión 6:  </a></h3>
+ <p align="left">
+Crear una clase HelloController que sea un controlador REST.
+Dentro de la clase crear un método que retorne un saludo.
+Probar que retorna el saludo desde el navegador y desde Postman.
+
+Dentro de la misma app crear las clases necesarias para trabajar con "ordenadores":
+
+    * Laptop (entidad)
+
+    * LaptopRepository (repositorio)
+
+    * LaptopController (controlador)
+
+Desde LaptopController crear un método que devuelva una lista de objetos Laptop.
+Probar que funciona desde Postman.
+Los objetos Laptop se pueden insertar desde el método main de la clase principal.
+
+Crear un método en LaptopController que reciba un objeto Laptop enviado en formato JSON desde Postman y persistirlo en la base de datos.
+
+Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
+</p>
+
+
