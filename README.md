@@ -44,3 +44,10 @@ Desde el método main, probar a obtener el bean UserService y ejecutar el métod
     Spring Data JPA
     H2
 </p>
+<br>
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
+ target="_blank"> API REST  </a></h3>
+<p align="left">
+- aplicaciones REST con Spring Boot,  un repaso a los servicios REST.
+ USO DE @RequestBody, @RequestHeader, @RestController
+</p>          
