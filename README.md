@@ -74,17 +74,4 @@ Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
 </p>
 <hr/>
 
-GOOGLEADA PARA LA SESION 7
 
-REST (Representational State Transfer) es una arquitectura que se ejecuta sobre HTTP.
-
-RESTful hace referencia a un servicio web que implementa la arquitectura REST.
-
-
------
-para no mostrar errores genericos ni traza de error 
-server.error.include-message=never
-server.error.include-stacktrace=never
-en el aplication.properties
-
-los @RequestBody anotación nos permite recuperar el cuerpo de la solicitud. Luego podemos devolverlo como una cadena o deserializarlo en un objeto Java antiguo simple (POJO).
