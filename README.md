@@ -45,7 +45,7 @@ Desde el método main, probar a obtener el bean UserService y ejecutar el métod
     H2
 </p>
 <hr />
-<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/9ed776b4e837b31d3bc127088c7287deff898d11/ob-rest-datajpa2/src/main/java/com/example/obrestdatajpa" 
  target="_blank"> API REST  </a></h3>
 <p align="left">
 - aplicaciones REST con Spring Boot,  un repaso a los servicios REST.
@@ -72,6 +72,12 @@ Crear un método en LaptopController que reciba un objeto Laptop enviado en form
 
 Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
 </p>
-<hr/>
 
+<hr/>
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
+ target="_blank">COMPLETANDO Y MEJORANDO API REST  </a></h3>
+<p align="left"> 
+ Ahora devolvemos códigos de estado de respuesta HTTP y aplicamos algo de lógica básica, por ahora es repaso sin clases servicios
+ 
+</p>          
 
