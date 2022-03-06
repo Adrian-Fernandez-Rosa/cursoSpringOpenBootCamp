@@ -77,7 +77,7 @@ Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
 <h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
  target="_blank">COMPLETANDO Y MEJORANDO API REST  </a></h3>
 <p align="left"> 
- Ahora devolvemos códigos de estado de respuesta HTTP y aplicamos algo de lógica básica, por ahora es repaso sin clases servicios
+ Ahora devolvemos códigos de estado de respuesta HTTP y aplicamos algo de lógica básica, por ahora es repaso sin clases servicios.
  
 </p>          
 
