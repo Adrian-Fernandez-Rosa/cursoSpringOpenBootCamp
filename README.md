@@ -85,10 +85,13 @@ Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
  target="_blank">AGREGANDO SWAGGER A API REST  </a></h3>
 <p align="left"> 
 Documentamos con SWAGGER usando:
-@ApiIgnore
-@ApiOperation
-@ApiModel
-@ApiModelProperty
+ <ul>
+  
+  <li>@ApiIgnore</li>
+<li> @ApiOperation</li>
+<li>@ApiModel</li>
+<li>@ApiModelProperty</li>
+  </ul>
 </p>  
 
  
