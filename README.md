@@ -84,11 +84,13 @@ Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
 <h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
  target="_blank">AGREGANDO SWAGGER A API REST  </a></h3>
 <p align="left"> 
-Documentamos con SWAGGER usando 
- * @ApiIgnore
- * @ApiOperation
- * @ApiModel
- * @ApiModelProperty
- 
+Documentamos con SWAGGER usando:
+@ApiIgnore
+@ApiOperation
+@ApiModel
+@ApiModelProperty
 </p>  
+
+ 
+
 
