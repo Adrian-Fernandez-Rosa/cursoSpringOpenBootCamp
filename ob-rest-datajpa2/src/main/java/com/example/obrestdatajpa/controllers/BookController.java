@@ -2,6 +2,8 @@ package com.example.obrestdatajpa.controllers;
 
 import com.example.obrestdatajpa.entidades.Book;
 import com.example.obrestdatajpa.repository.BookRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +16,8 @@ public class BookController {
 
     private BookRepository bookRepository;
 
+    private final Logger log = LoggerFactory.getLogger(BookController.class);
+
     public BookController(BookRepository bookRepository) {
        this.bookRepository = bookRepository;
     }
@@ -24,7 +28,7 @@ public class BookController {
 
     /**
      * http://localhost:8080/api/books
-     * @return
+     * @return libros
      */
     @GetMapping("/api/books")
     public List<Book> findAll(){
@@ -63,20 +67,68 @@ public class BookController {
     }
 
 
-
-
-
-    //crear un nuevo libro
-
+    /**
+     * Método POST, recordar no hay conflicto de URL porque el otro es get
+     * @param book
+     * @param headers
+     * @return
+     */
     @PostMapping("/api/books")
-    public Book create(@RequestBody Book book, @RequestHeader HttpHeaders headers){
+    public ResponseEntity<Book> create(@RequestBody Book book, @RequestHeader HttpHeaders headers){
         //@RequestBody  extrae la información de la petición y cargala en un parametro de tipo libro
+        if(book.getId() != null){
+            log.warn("trying to create a book with id");
+            return ResponseEntity.badRequest().build();
+        }
 
+        Book result = bookRepository.save(book);
         System.out.println(headers.get("User-Agent"));
-        return bookRepository.save(book);
+       return ResponseEntity.ok(result);
+        // return bookRepository.save(book);
     }
 
-    // actualizar un libro existente
+    /**
+     *     actualizar un libro existente
+     *     para actualizar datos se utiliza put
+     * los @RequestBody anotación nos permite recuperar el cuerpo de la solicitud. Luego podemos
+     * devolverlo como una cadena o deserializarlo en un objeto Java antiguo simple (POJO).
+      */
+    @PutMapping("/api/books")
+    public ResponseEntity<Book>  udpate(@RequestBody Book book){
+
+    if(book.getId() == null){ //si no tiene id es porque que hay que crearlo y no actualizarlo
+        log.warn("Trying to update a non existent book");
+        return ResponseEntity.badRequest().build();
+    }
+    if(!bookRepository.existsById(book.getId())){
+        log.warn("Trying to update a non existent book");
+        return ResponseEntity.notFound().build(); //404
+    }
+
+        Book result = bookRepository.save(book);
+        return ResponseEntity.ok(result);
+    }
 
     //borrar un libro
+    @DeleteMapping("/api/books/{id}")
+    public ResponseEntity<Book> delete(@PathVariable Long id){
+
+        bookRepository.deleteById(id);
+        if(!bookRepository.existsById(id)){
+            log.warn("Trying to delete a non existent book");
+            return ResponseEntity.notFound().build(); //404
+        }
+
+        return ResponseEntity.noContent().build();
+      //204 todo ok y el contenido y el contenido ya no esta disponible
+
+    }
+
+    @DeleteMapping("/api/books")
+    public ResponseEntity<Book> deleteAll(){
+        log.info("REST Request for Deleting all books");
+        bookRepository.deleteAll();
+        return ResponseEntity.noContent().build();
+    }
+
 }
