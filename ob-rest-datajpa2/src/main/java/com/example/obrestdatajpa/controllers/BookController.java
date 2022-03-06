@@ -2,11 +2,14 @@ package com.example.obrestdatajpa.controllers;
 
 import com.example.obrestdatajpa.entidades.Book;
 import com.example.obrestdatajpa.repository.BookRepository;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.List;
 import java.util.Optional;
@@ -53,7 +56,8 @@ public class BookController {
      * @return
      */
     @GetMapping("/api/books/{id}")
-    public ResponseEntity<Book> findOneById(@PathVariable Long id){ //recordar que Path... vincula con la url
+    @ApiOperation("Buscar un libro por clave primaria id Long")
+    public ResponseEntity<Book> findOneById(@ApiParam("Clave primaria tipo long") @PathVariable Long id){ //recordar que Path... vincula con la url
         //normalmente se devuelve response entity
         Optional<Book> bookOpt = bookRepository.findById(id);
 
@@ -73,6 +77,7 @@ public class BookController {
      * @param headers
      * @return
      */
+    @ApiIgnore //ignoramos el método para que no se incluya en swagger
     @PostMapping("/api/books")
     public ResponseEntity<Book> create(@RequestBody Book book, @RequestHeader HttpHeaders headers){
         //@RequestBody  extrae la información de la petición y cargala en un parametro de tipo libro
