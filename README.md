@@ -74,10 +74,21 @@ Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
 </p>
 
 <hr/>
-<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/233e7a59d0789c7a5f636de52530a1a06e4826c3/ob-rest-datajpa2" 
  target="_blank">COMPLETANDO Y MEJORANDO API REST  </a></h3>
 <p align="left"> 
  Ahora devolvemos códigos de estado de respuesta HTTP y aplicamos algo de lógica básica, por ahora es repaso sin clases servicios.
  
-</p>          
+</p>         
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
+ target="_blank">AGREGANDO SWAGGER A API REST  </a></h3>
+<p align="left"> 
+Documentamos con SWAGGER usando 
+ * @ApiIgnore
+ * @ApiOperation
+ * @ApiModel
+ * @ApiModelProperty
+ 
+</p>  
 
