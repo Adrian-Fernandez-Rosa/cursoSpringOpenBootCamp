@@ -1,4 +1,4 @@
-package com.example.obrestdatajpa.entidades;
+package com.example.obrestdatajpa.entities;
 
 
 import io.swagger.annotations.ApiModel;

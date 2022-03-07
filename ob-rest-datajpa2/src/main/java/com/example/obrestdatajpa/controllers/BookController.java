@@ -1,6 +1,6 @@
 package com.example.obrestdatajpa.controllers;
 
-import com.example.obrestdatajpa.entidades.Book;
+import com.example.obrestdatajpa.entities.Book;
 import com.example.obrestdatajpa.repository.BookRepository;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
