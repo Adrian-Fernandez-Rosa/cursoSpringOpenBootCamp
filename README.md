@@ -82,7 +82,7 @@ Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado.
 </p>         
 
 <h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/ob-rest-datajpa2" 
- target="_blank">AGREGANDO SWAGGER A API REST  </a></h3>
+ target="_blank">AGREGANDO SWAGGER  Y TESTING JUNIT BASICO A API REST </a></h3>
 <p align="left"> 
 Documentamos con SWAGGER usando:
  <ul>
@@ -92,8 +92,14 @@ Documentamos con SWAGGER usando:
 <li>@ApiModel</li>
 <li>@ApiModelProperty</li>
   </ul>
-</p>  
 
+
+testing, algunos de los conceptos y anotaciones aplicadas:
+<ul>
+ <li>RestTemplateBuilder</li>
+   <li>BeforeEach</li> 
+ <li>Crear cabecera json</li>
+</p>  
  
 
 
