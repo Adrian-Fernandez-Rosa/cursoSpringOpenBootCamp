@@ -101,5 +101,14 @@ testing, algunos de los conceptos y anotaciones aplicadas:
  <li>Crear cabecera json</li>
 </p>  
  
+ <hr/>
+ <h6 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/sesion9" 
+ target="_blank"> Ejercicitación sesión 9:  </a></h3>
+ <p align="left">
+ <ul>
+ <li>Implementar los métodos CRUD faltantes en el API REST de Laptop creada en ejercicios anteriores.</li>
+ <li>Implementar swagger sobre el API REST de Laptop y verificar que funciona.</li>
+ <li>Crear casos de test para el controlador de Laptop desde Spring Boot.</li>
+ </p>
 
 
