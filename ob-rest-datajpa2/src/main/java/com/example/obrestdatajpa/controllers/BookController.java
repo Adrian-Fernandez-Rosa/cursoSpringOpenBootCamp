@@ -118,12 +118,12 @@ public class BookController {
     @DeleteMapping("/api/books/{id}")
     public ResponseEntity<Book> delete(@PathVariable Long id){
 
-        bookRepository.deleteById(id);
+
         if(!bookRepository.existsById(id)){
             log.warn("Trying to delete a non existent book");
             return ResponseEntity.notFound().build(); //404
         }
-
+        bookRepository.deleteById(id);
         return ResponseEntity.noContent().build();
       //204 todo ok y el contenido y el contenido ya no esta disponible
 
