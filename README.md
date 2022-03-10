@@ -99,6 +99,7 @@ testing, algunos de los conceptos y anotaciones aplicadas:
  <li>RestTemplateBuilder</li>
    <li>BeforeEach</li> 
  <li>Crear cabecera json</li>
+ </ul>
 </p>  
  
  <hr/>
@@ -111,7 +112,9 @@ testing, algunos de los conceptos y anotaciones aplicadas:
  <li>Crear casos de test para el controlador de Laptop desde Spring Boot.</li>
   </ul>
  </p>
+ 
  <hr/>
+ 
 <h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/spring-deploy" 
  target="_blank">DEPLOY EN HEROKU </a></h3>
 <p align="left"> 
