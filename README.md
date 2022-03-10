@@ -110,5 +110,9 @@ testing, algunos de los conceptos y anotaciones aplicadas:
  <li>Implementar swagger sobre el API REST de Laptop y verificar que funciona.</li>
  <li>Crear casos de test para el controlador de Laptop desde Spring Boot.</li>
  </p>
-
-
+ <hr/>
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/spring-deploy" 
+ target="_blank">DEPLOY EN HEROKU </a></h3>
+<p align="left"> 
+Deploy básica java 17 heroku system.properties 
+</p>
