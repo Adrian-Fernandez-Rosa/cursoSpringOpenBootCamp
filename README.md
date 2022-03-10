@@ -109,6 +109,7 @@ testing, algunos de los conceptos y anotaciones aplicadas:
  <li>Implementar los métodos CRUD faltantes en el API REST de Laptop creada en ejercicios anteriores.</li>
  <li>Implementar swagger sobre el API REST de Laptop y verificar que funciona.</li>
  <li>Crear casos de test para el controlador de Laptop desde Spring Boot.</li>
+  </ul>
  </p>
  <hr/>
 <h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/spring-deploy" 
