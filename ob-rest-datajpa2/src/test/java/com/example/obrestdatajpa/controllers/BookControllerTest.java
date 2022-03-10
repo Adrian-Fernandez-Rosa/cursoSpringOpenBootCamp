@@ -62,7 +62,7 @@ class BookControllerTest {
     void findOneById() {
 
         ResponseEntity<Book> response =
-                TestRestTemplate.getForEntity("/api/books/1", Book.class);
+                TestRestTemplate.getForEntity("/api/books/5", Book.class);
 
         assertEquals(HttpStatus.NOT_FOUND , response.getStatusCode());
 
