@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "042e8008-d3dd-441c-8225-2a8fb2928583",
+		"name": "herokudeploytestLaptop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/laptops BUSCAR TODOS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptops/1 OBTENER UNO",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
