@@ -153,3 +153,10 @@ Proyecto teórico donde se hace algunos tipos de cifrados mas teoría JWT en rea
 * <a href="https://www.devglan.com/spring-security/exception-handling-in-spring-security" target="_blank">exception handling in spring security </a>
  * <a href="https://www.devglan.com/spring-security/spring-boot-jwt-auth" target="_blank">Spring Boot Security Jwt Authentication </a>
 </p>
+
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/5b3c4e78a3b597206b447aeb54fedbb8e59ad5cd/ob-spring-security-cifrado" 
+ target="_blank">Teoría OAuth </a></h3>
+<p align="left"> 
+Se agrega teoría al readme de este proyecto y links útiles.
+</p>
