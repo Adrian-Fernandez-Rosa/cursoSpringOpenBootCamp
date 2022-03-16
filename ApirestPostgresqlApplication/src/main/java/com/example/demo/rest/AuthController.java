@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.*;
  *
  * Si las credenciales son válidas se genera un token JWT como respuesta
  */
-// @CrossOrigin(origins = "http://localhost:8081")
+// @CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
@@ -43,7 +43,7 @@ public class AuthController {
         this.userRepository = userRepository;
         this.encoder = encoder;
         this.jwtTokenUtil = jwtTokenUtil;
-    }
+    } //no hay necesidad de autowired
 
     @PostMapping("/login")
     public ResponseEntity<JwtResponse> login(@RequestBody LoginRequest loginRequest){
@@ -60,7 +60,7 @@ public class AuthController {
     }
 
     @PostMapping("/register")
-    public ResponseEntity<MessageResponse> register(@RequestBody RegisterRequest signUpRequest) { // this
+    public ResponseEntity<MessageResponse> register(@RequestBody RegisterRequest signUpRequest) { // payload
 
         // Check 1: username
         if (userRepository.existsByUsername(signUpRequest.getUsername())) {
