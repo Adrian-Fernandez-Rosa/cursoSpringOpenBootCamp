@@ -124,3 +124,74 @@ Crear proyecto Spring Boot con:
      </dependency>
 
 ```
+
+<hr>
+<hr>
+<hr>
+
+
+## Open Authorization (OAuth)
+
+Es un framework de autorización, abierto y está construido estándares y licenciado bajo Open Web Foundation.
+
+Es un protocolo de delegación:
+
+Permite que alguien que controla un recurso permita a una aplicación acceder a ese recurso sin necesidad de control.
+
+Con la ayuda de OAuth los usuarios pueden autorizar a aplicaciones de terceros a acceder a sus datos o ejecutar determinadas operaciones sin necesidad de proporcionar usuario y contraseña.
+
+## Flujo de trabajo con OAuth: 
+
+1. Una aplicación solicita autenticación.
+2. Se realiza login mediante Google.
+3. La aplicación se comunica con Google donde se utilizan las credenciales Google sin que la aplicación pueda verlas.
+4. El servidor de Google pregunta al usuario si desea conceder X permisos.
+5. El usuario acepta los permisos.
+6. Google genera un token de acceso como respuesta.
+7. La aplicación utiliza ese token.
+
+## Escenarios para utilizar OAuth
+
+1. Autenticación HTTP en la que no se quiere utilizar usuario y contraseña todo el tiempo
+2. Múltiples aplicaciones dentro de una misma empresa y en consecuencia multiples cuentas con el mismo usuario y contraseña.
+3. Arquitectura de microservicios.
+4. Interacción de aplicaciones de terceros
+
+Proveedores: Google, Github, Facebook, Okta.
+
+## OAuth en Spring Security 
+
+Inicialmente había un proyecto llamado Security OAuth.
+
+En 2018 se sobreescribe para hacerlo más eficiente, con un código más eficiente, con un código base más sencillo.
+
+Se depreca el antiguo y ahora OAuth esta integrado sobre el propio Spring Security.
+
+Incluye: 
+
+* Client Support
+* Resource server
+* Authorization Server: https://github.com/spring-projects/spring-authorization-server
+
+<hr>
+Herramientas para usar/leer:
+
+* Keycloak: https://www.keycloak.org/
+* tutorial: https://spring.io/guides/tutorials/spring-boot-oauth2/
+* repositorio con ejemplos: https://github.com/spring-guides/tut-spring-boot-oauth2
+
+## Flujos de acción OAuth:
+
+* Authorization code
+* Implicit 
+* Resource Owner password credentials
+* CLient Credentials
+* Refresh Token 
+
+## OpenID Connect
+
+* OpenID Connect --> Authentication
+* OAuth 2.0 --> Authorization
+* HTTP
+
+  
