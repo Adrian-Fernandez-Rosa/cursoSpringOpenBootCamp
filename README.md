@@ -148,4 +148,8 @@ Proyecto teórico donde se hace algunos tipos de cifrados mas teoría JWT en rea
 <p align="left"> 
  Se aplico JWT como método de autenticación, configuración para usar JWT como método de autenticación. Tambíen se uso de payLoad. 
  Swagger seguro.
+ algo de teoría:
+ 
+* <a href="https://www.devglan.com/spring-security/exception-handling-in-spring-security" target="_blank">exception handling in spring security </a>
+ * <a href="https://www.devglan.com/spring-security/spring-boot-jwt-auth" target="_blank">Spring Boot Security Jwt Authentication </a>
 </p>
