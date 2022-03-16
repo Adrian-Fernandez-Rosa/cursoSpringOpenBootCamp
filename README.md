@@ -146,7 +146,7 @@ Proyecto teórico donde se hace algunos tipos de cifrados mas teoría JWT en rea
 <h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/ec6c44f15b32959d7afd44d7d46dd5dd6323e30c/ApirestPostgresqlApplication" 
  target="_blank">Spring security con JWT auth, DTO </a></h3>
 <p align="left"> 
- Se aplico JWT como método de autenticación, configuración para usar JWT como método de autenticación. Tambíen se uso de payLoad. 
+ Se aplico y configuro JWT como método de autenticación. Tambíen se uso de payLoad. 
  Swagger seguro.
  algo de teoría:
  
