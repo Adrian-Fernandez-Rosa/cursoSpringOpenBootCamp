@@ -134,3 +134,11 @@ Crear un perfil para dev y otro para test con una propiedad nueva que carguemos 
 Desplegar el API REST de Laptops en Heroku y verificar funcionamiento desde POSTMAN.
 Añadir Spring Security sobre el proyecto API REST de Laptops y configurar 2 usuarios en memoria utilizando una clase WebSecurityConfig.
 </p>
+
+ <hr/>
+ 
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/spring-deploy" 
+ target="_blank">Teoría JWT </a></h3>
+<p align="left"> 
+Proyecto teórico donde se hace algunos tipos de cifrados mas teoría JWT en readme
+</p>
