@@ -137,7 +137,7 @@ Añadir Spring Security sobre el proyecto API REST de Laptops y configurar 2 usu
 
  <hr/>
  
-<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/spring-deploy" 
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/e99df7e873274a315e1d61f7a9d8d28af7159335/ob-spring-security-cifrado" 
  target="_blank">Teoría JWT </a></h3>
 <p align="left"> 
 Proyecto teórico donde se hace algunos tipos de cifrados mas teoría JWT en readme
