@@ -160,3 +160,15 @@ Proyecto teórico donde se hace algunos tipos de cifrados mas teoría JWT en rea
 <p align="left"> 
 Se agrega teoría al readme de este proyecto y links útiles.
 </p>
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/e67493ed3122239397b3cc6a02ee9fabed2074d8/ob-spring-security-oauth-github" 
+ target="_blank">oauth2 con github </a></h3>
+<p align="left"> 
+Uso en controladores de @RegisteredOAuth2AuthorizedClient y @AuthenticationPrincipal para mostrar información del usuario logeado.
+</p>
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/e67493ed3122239397b3cc6a02ee9fabed2074d8/ob-spring-security-oauth-okta" 
+ target="_blank">oauth2 con okta </a></h3>
+<p align="left"> 
+Uso en controladores de @RegisteredOAuth2AuthorizedClient y @AuthenticationPrincipal para mostrar información del usuario logeado
+</p>
