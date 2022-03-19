@@ -178,8 +178,9 @@ Uso en controladores de @RegisteredOAuth2AuthorizedClient y @AuthenticationPrinc
 <p align="left"> 
  autorización de usuarios, gestión de roles y permisos de usuarios y a definir los permisos a usuarios, así como el uso de permisos como método de autorización.
  algunos de los tanto conceptos conceptos aplicados:
-  * AuthenticationEntryPoint
-  * CustomAccessDeniedHandler
-  * CORS
-  * AuthenticationFailureHandler
+ 
+ * AuthenticationEntryPoint
+ * CustomAccessDeniedHandler
+ * CORS
+ * AuthenticationFailureHandler
 </p>
