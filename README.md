@@ -172,3 +172,14 @@ Uso en controladores de @RegisteredOAuth2AuthorizedClient y @AuthenticationPrinc
 <p align="left"> 
 Uso en controladores de @RegisteredOAuth2AuthorizedClient y @AuthenticationPrincipal para mostrar información del usuario logeado
 </p>
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/4d29e316155f120f6cb1abb31f356db03ddcf8be/ob-spring-security-jwt-roles" 
+ target="_blank">Autorización de usuarios, gestión de roles, excepciones en Spring Security</a></h3>
+<p align="left"> 
+ autorización de usuarios, gestión de roles y permisos de usuarios y a definir los permisos a usuarios, así como el uso de permisos como método de autorización.
+ algunos de los tanto conceptos conceptos aplicados:
+  * AuthenticationEntryPoint
+  * CustomAccessDeniedHandler
+  * CORS
+  * AuthenticationFailureHandler
+</p>
