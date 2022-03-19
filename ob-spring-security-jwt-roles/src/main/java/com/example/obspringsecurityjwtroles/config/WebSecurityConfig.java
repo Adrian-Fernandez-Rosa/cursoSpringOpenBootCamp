@@ -53,9 +53,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .accessDeniedHandler(accessDeniedHandler) //403 prohibido (falta de permisos)
                 .and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-
+        /*
+         añadimos sessionManagement y creamos una política sin estado(stateless),
+         ya que no queremos que spring cree ninguna sesión ni guarde el estado
+         */
         http.addFilterBefore(authenticationTokenFilterBean(), UsernamePasswordAuthenticationFilter.class);
-
+        //filtro que viene en  JwtAuthenticationFilter
     }
 
     @Bean
