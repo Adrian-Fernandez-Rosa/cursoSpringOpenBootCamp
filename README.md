@@ -184,3 +184,10 @@ Uso en controladores de @RegisteredOAuth2AuthorizedClient y @AuthenticationPrinc
  * CORS
  * AuthenticationFailureHandler
 </p>
+
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/85fef32aaff4e46a593180af5935b3905328f7aa/ob-spring-security-csrf" 
+ target="_blank">Medidas de seguridad en Spring (CSRF, SQL injection)</a></h3>
+<p align="left"> 
+ protección ante ataques con programación segura, habilitar/ deshabilitar CSRF, configuración para protección CSRF, configuración para protección ante SQL Injection. (ver readme del proyecto)
+</p>
