@@ -1,4 +1,4 @@
-
+proyecto original de open bootcamp con modificaciones menores
 ## Patrones de diseño
 
 No son código en sí, son una forma de estructurar el código con el objeto de resolver un 
