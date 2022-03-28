@@ -191,3 +191,18 @@ Uso en controladores de @RegisteredOAuth2AuthorizedClient y @AuthenticationPrinc
 <p align="left"> 
  protección ante ataques con programación segura, habilitar/ deshabilitar CSRF, configuración para protección CSRF, configuración para protección ante SQL Injection. (ver readme del proyecto)
 </p>
+
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/cursoSpringOpenBootCamp/tree/master/spring-patterns" 
+ target="_blank">Patrones de diseño</a></h3>
+<p align="left"> 
+ Ejemplos de:
+</p>
+
+* patrón Plantilla
+* patrón Cadena de Eesponsabilidad
+* patrón Estrategia
+* patrón Proxy
+* patrón Constructor
+* patrón Observador
+* patrón Decorador
