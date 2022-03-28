@@ -29,9 +29,9 @@ Patrones a explorar:
 
 ## Objetivos generales
 
-* Obtener bajo acoplamiento 
+* Obtener bajo acoplamiento (se suele usar más clases abstractas que interfaces)
 * Reutilización de código
-* Flexibilidad
+* Flexibilidad 
 * Escalabilidad
 * Eficiencia
 * Estándar de buenas prácticas
