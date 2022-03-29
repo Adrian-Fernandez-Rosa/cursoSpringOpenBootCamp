@@ -124,3 +124,39 @@ Ventajas:
 
 Desventajas:
 * Requiere crear una nueva clase Builder lo cual puede añadir complejidad a la clase original.
+
+## 6. Observer 
+
+Cuando tenemos una asociación de tipo one to many entre clases y queremos que cuando se actualice el 
+objeto del lado one se notifique automáticamente a los objetos del lado many.
+
+Por ejemplo:
+
+Un canal de Youtube sube nuevo vídeo y se notifica automáticamente a todos sus suscriptores.
+
+Ventajas:
+* Principios SOLID: principio Open Closed. Podemos introducir nuevos objetos suscriptores.
+* Establecer asociaciones entre objetos en tiempo de ejecución (runtime).
+
+Desventajas:
+* Puede ser que no se siga un orden a la hora de notificar a los suscriptores y se haga de manera aleatoria.
+
+
+## 7. Decorator
+
+Agregar nueva funcionalidad a objetos existentes. Decorar objetos con nuevas funcionalidades.
+
+Un objeto se puede decorar con funcionalidad y a su vez el resultado se le puede seguir aplicando decoradores.
+
+Ventajas:
+
+* Extender la funcionalidad de objetos existentes sin necesidad de utilizar herencia.
+* Agregar nuevas responsabilidades o comportamientos a un bojeto en tiempo de ejecución (runtime)
+* Múltiples comportamientos sobre un mismo objeto por medio de utilizar mas de un decorador a la vez.
+* SRP Principio de una sola responsabilidad, cada decorador sería una clase y se centraría en una única responsabilidad.
+
+Desventajas:
+* Complejidad cuando hay muchos decoradores.
+* Difícil eliminar un decorador que está dentro de otro decorador.
+* El orden de los decoradores puede ser importante y podría ser difícil tener que cambiarlo.
+

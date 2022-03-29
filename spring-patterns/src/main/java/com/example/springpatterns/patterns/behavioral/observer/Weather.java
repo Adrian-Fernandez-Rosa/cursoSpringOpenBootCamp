@@ -3,9 +3,14 @@ package com.example.springpatterns.patterns.behavioral.observer;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase Weather que notifica del cambio de tiempo a los observadores
+ * One Weather - To - Many Observers
+ */
 public class Weather {
  
     private WeatherType currentWeather;
+    // One to Many
     private List<WeatherObserver> observers;
 
     public Weather(){
@@ -18,18 +23,22 @@ public class Weather {
     }
 
     public void removeObserver(WeatherObserver obs){
-        System.out.println("A�adido obs");
+        System.out.println("Removed Observer");
         this.observers.remove(obs);
     }
 
-    // cambio de tiempo
+    /**
+     * Cambia el tiempo y notifica a los observadores asociados.
+     * @param currentWeather
+     */
     void changeWeather(WeatherType currentWeather){
         this.currentWeather = currentWeather;
-        this.notifyObservers();
+        this.notifyObservers(); //notifica
     }
 
     // notificar del cambio de tiempo
     private void notifyObservers(){
+        // polimorfismo, se tratan los observadores como objetos WeaterObserver (comentario por si me toca mentorear)
         for (WeatherObserver observer: this.observers) {
             observer.update(this.currentWeather);
         }
