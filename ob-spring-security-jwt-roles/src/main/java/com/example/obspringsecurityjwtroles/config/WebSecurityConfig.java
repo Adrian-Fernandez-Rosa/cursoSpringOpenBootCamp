@@ -59,6 +59,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
          */
         http.addFilterBefore(authenticationTokenFilterBean(), UsernamePasswordAuthenticationFilter.class);
         //filtro que viene en  JwtAuthenticationFilter
+        //también se puede añadir filtro después de ejecutar un método con
+        // http.addFilterAfter()
     }
 
     @Bean

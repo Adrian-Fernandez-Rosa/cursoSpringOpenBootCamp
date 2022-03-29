@@ -19,9 +19,12 @@ public class ShopCart {
         this.products.remove(product);
     }
 
-    // pagar utilizando una estrategia de pago
+    // pagar utilizando una estrategia de pago.
     public void pay(PaymentStrategy paymentMethod){
+        //opción 1: iterar de forma funcional.
     	Double result = products.stream().map(x -> x.getPrice()).reduce(Double::sum).orElse(0d);
+
+        //opción 2: de forma imperativa.
         double amount = 0;
         for (Product product : products) {
             amount += product.getPrice();

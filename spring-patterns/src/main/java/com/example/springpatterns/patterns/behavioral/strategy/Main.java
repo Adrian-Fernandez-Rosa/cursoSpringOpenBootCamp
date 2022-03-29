@@ -12,7 +12,12 @@ public class Main {
         cart.addProduct(product1);
         cart.addProduct(product2);
 
+        // Crear y ejecutar estrategia (método de pago): Paypal
         cart.pay(new PayPalStrategy("","",""));
+
+        // Crear y ejecutar estrategia (método de pago): Tarjeta de crédito
         cart.pay(new CreditCardStrategy("","","", ""));
+
+
 	}
 }

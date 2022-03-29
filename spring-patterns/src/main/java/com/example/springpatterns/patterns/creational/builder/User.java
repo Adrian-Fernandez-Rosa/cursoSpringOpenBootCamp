@@ -97,6 +97,7 @@ public class User {
 			return married;
 		}
 
+		// Métodos SETTER estilo Fluent, devolviendo this.
 		public Builder setId(Long id) {
 			this.id = id;
 			return this;
