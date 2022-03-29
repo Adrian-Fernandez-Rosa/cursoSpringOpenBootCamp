@@ -46,7 +46,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             } catch (ExpiredJwtException e) {
                 logger.warn("token expirado", e);
             } catch(SignatureException e){
-                logger.error("login fallo, usuario o password erroneso.");
+                logger.error("login fallo, usuario o password erroneo.");
             }
         } else {
             logger.warn("Couldn't find bearer string, header will be ignored");
