@@ -206,3 +206,11 @@ Uso en controladores de @RegisteredOAuth2AuthorizedClient y @AuthenticationPrinc
 * patrón Constructor
 * patrón Observador
 * patrón Decorador
+
+
+<h3 align="left"><a href="https://github.com/Adrian-Fernandez-Rosa/ApirestPostgresqlApplication" 
+ target="_blank">documentación con jacoco, ver pom</a></h3>
+<p align="left"> 
+ Generación de maven site.
+</p>
+
