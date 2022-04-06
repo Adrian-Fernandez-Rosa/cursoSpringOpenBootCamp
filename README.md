@@ -92,7 +92,9 @@ Documentamos con SWAGGER usando:
 <li>@ApiModel</li>
 <li>@ApiModelProperty</li>
   </ul>
-
+nota: en versiones actuales de spring quizas se tenga que poner
+spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+en el .properties para que funcione con swagger
 
 testing, algunos de los conceptos y anotaciones aplicadas:
 <ul>
